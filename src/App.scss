@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+.dashboard {
+  min-height: 100vh;
+}
+
+.sidebar {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: center;
+
+  .sidebar-icon div {
+    margin-bottom: 10px;
+  }
+  .sidebar-icons-bottom {
+    position: absolute;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+  }
+}
+
+.upgrade {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+  position: absolute;
+  left: 0px;
+  top: 33%;
+  background: green;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 7px 0px 7px 5px;
+}
+
+.middlebar {
+}
